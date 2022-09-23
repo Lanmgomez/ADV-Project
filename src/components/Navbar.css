@@ -1,0 +1,91 @@
+    
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    box-shadow:  1px 3px 5px rgba(0, 0, 0, .4);
+    background-color: var(--secondary)
+}
+
+.div-contacts {
+    display: flex;
+    height: 20px;
+    background-color: var(--quarter);
+    color: var(--tertiary);
+}
+        
+span {
+    font-weight: bold;
+}
+            
+.bi-whatsapp, .bi-envelope {
+    padding: 5px;
+}
+            
+.div-links-page {
+    display: flex
+}     
+
+.logo {
+    display: block;
+    width: 120px;
+    cursor: pointer;
+}
+          
+ul {
+    display: flex;
+    padding: 25px;
+    list-style: none;
+}
+
+li {
+    margin-top: .5em;
+}
+
+.links {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+            
+a {
+    color: var(--quarter);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+                
+a:hover {
+    color: var(--fifth);
+    background-color: var(--quarter);
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-contacts {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        background-color: var(--quarter);
+        color: var(--tertiary);
+        text-align: center;
+        padding: 5px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        padding: 8px;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+                   

@@ -1,0 +1,139 @@
+main {
+    width: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--tertiary);
+}
+
+.container-icons {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    width: 250px;
+    height: 100px;
+}
+
+.h1-icon-1 {
+    margin-top: 1em;
+    color: var(--sixth);
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+.h1-icon-2 {
+    margin-top: 1em;
+    color: var(--sixth);
+    font-size: 15pt;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.title-mv-consultoria {
+    width: 800px;
+    background-color: var(--sixth);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.span-regularize {
+    color: var(--tertiary);
+    background-color: var(--quarter);
+    padding: 15px;
+}
+
+.main-home-img {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/lawer01.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    width: 400px;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: 'Montserrat';
+    color: var(--tertiary);
+    margin-top: 2em;
+    margin-left: -10px;
+}
+
+.nao-perca-tempo {
+    margin-top: 2em;
+}
+
+button {
+    width: 400px;
+    height: 45px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: var(--sixth);
+    border: var(--sixth);
+    color: var(--tertiary);
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: -5em;
+    margin-left: 35%;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #483D8B;
+}
+
+@media (max-width: 450px) {
+
+    h1 {
+       font-size: 15px; 
+       margin-top: 2em;
+       margin-bottom: 2em;
+    }
+
+    h2 {
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-baner {
+        width: 450px;
+    }
+
+    .orcamento-text {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    button {
+        width: 300px;
+        margin: 0px 25px auto;
+        margin-top: -70px;
+    }
+
+    .h1-icon-1, .h1-icon-2, .nao-perca-tempo {
+        display: none;
+    }
+
+    .title-mv-consultoria {
+        width: 300px;
+    }
+}

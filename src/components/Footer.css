@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    height: 45vh;
+    background-color: var(--secondary);
+    margin-top: 4px;
+    display: flex;
+}
+
+.Logo-MV-Consultoria {
+    width: 800px;
+    height: 300px;
+    margin-top: 3em;
+    display: flex;
+    margin-left: -50px;
+}
+
+.Logo-MV-Consultoria ul {
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+.Logo-MV-Consultoria hgroup h4 {
+    padding: 10px;
+    color: var(--quarter);
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.Logo-MV-Consultoria hgroup h1 {
+    font-size: 15pt;
+    margin-left: -200px;
+    margin-top: -10px;
+    color: var(--sixth);
+}
+
+.hand-city-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.social-medias {
+    width: 400px;
+    margin-top: 6.5em;
+    text-align: center;
+}
+
+.social-medias h3 {
+    font-family: 'Montserrat';
+    margin-bottom: 1em;
+}
+
+.bi-instagram, 
+.bi-facebook {
+    font-size: 20pt;
+    color: var(--quarter);
+}

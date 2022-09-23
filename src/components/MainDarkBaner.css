@@ -1,0 +1,140 @@
+.main-dark-baner {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--primary)
+}
+
+.situacao-div {
+    width: 400px;
+    color: var(--secondary);
+    margin-top: 2.5em;
+}
+
+.situacao-div h1 {
+    margin-left: -20px;
+}
+
+.saiba-mais-button {
+    margin: 10px 95px;
+    width: 200px;
+    background-color: var(--seventy);
+}
+
+.contatos {
+    margin-top: 7em;
+}
+
+.contatos p {
+   font-size: 19pt;
+   margin-bottom: 2em;
+}
+
+.o-que-fazemos {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 2em;
+}
+
+.cards-list {
+    display: flex;
+}
+
+.email {
+    font-size: 16pt;
+}
+
+.cards-01 h2, 
+.cards-02 h2,
+.cards-03 h2,
+.cards-04 h2 {
+    width: 200px;
+    font-size: 15pt;
+    margin-left: 10px;
+    background-color: var(--quarter);
+    margin-top: 10px;
+}
+
+.cards-01 {
+    background: url('../img/negociacao.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 30vh;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.cards-02 {
+    background: url('../img/regularizacao.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 30vh;
+    margin: 10px;
+}
+
+.cards-03 {
+    background: url('../img/negociacao02.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 30vh;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.cards-04 {
+    background: url('../img/negociacao03.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 30vh;
+    margin: 10px;
+}
+
+@media (max-width: 450px) {
+
+    .main-dark-baner {
+        flex-direction: column;
+        height: 75vh;
+    }
+
+    .situacao-div h1 {
+        width: 300px;
+        font-size: 10pt;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .situacao-div p {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .o-que-fazemos {
+        display: none;
+    }
+
+    .contatos {
+        margin-top: 7em;
+    }
+    
+    .contatos p {
+       font-size: 12pt;
+       margin-bottom: 2em;
+       margin-left: 20px;
+    }
+
+    .saiba-mais-button {
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .email {
+        font-size: 12pt;
+    }
+}
