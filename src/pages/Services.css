@@ -1,0 +1,176 @@
+.div-services h1 {
+    color: var(--sixth);
+}
+
+.balanca02 {
+    width: 250px;
+    height: 250px;
+    margin-top: -20px;
+}
+
+.first-job-service {
+    width: 80%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/img-services-01.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.first-job-service h2 {
+    margin-left: 50px;
+}
+
+.ul-services-job-01 ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--tertiary);
+    font-size: 15pt;
+    width: 350px;
+    background-color: rgba(22, 22, 66, .7);
+    border-radius: 10px;
+    list-style: square;
+}
+
+.ul-services-job-01 li {
+    margin-left: 0;
+    font-family: 'Montserrat';
+}
+
+.second-job-service {
+    width: 80%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/books-background02.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.second-job-service h2 {
+    margin-right: -150px;
+}
+
+.chave-02 {
+    width: 250px;
+    height: 250px;
+    margin-top: -50px;
+}
+
+.ul-services-job-02 ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--tertiary);
+    font-size: 15pt;
+    width: 350px;
+    background-color: rgba(128, 0, 0, .5);
+    border-radius: 10px;
+    list-style: square;
+}
+
+.ul-services-job-02 li {
+    margin-left: 0;
+    font-family: 'Montserrat';
+}
+
+.thirty-job-service {
+    width: 80%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/martelo-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.ul-services-job-03 ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--tertiary);
+    font-size: 15pt;
+    width: 350px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    list-style: square;
+}
+
+.ul-services-job-03 li {
+    margin-left: 0;
+}
+
+.martelo-icon {
+    width: 250px;
+}
+
+@media (max-width: 450px) {
+
+    .div-services {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .first-job-service, 
+    .second-job-service, 
+    .thirty-job-service {
+        border-radius: 10px;
+    }
+
+    .first-job-service h2 {
+        margin-left: 10px;
+    }
+
+    .first-job-service img,
+    .second-job-service img,
+    .thirty-job-service img {
+        display: none;
+    }
+
+    .ul-services-job-01 ul {
+        text-align: center;
+        font-size: 12pt;
+        font-weight: bold;
+        background-color: transparent;
+        font-family: 'Montserrat';
+    }
+
+    .ul-services-job-02 ul {
+        background-color: transparent;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 12pt;
+    }
+
+    .second-job-service h2 {
+        margin: 0;
+        margin-top: -13em;
+    }
+
+    .thirty-job-service ul {
+        background-color: transparent;
+        font-size: 12pt;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        margin-top: 0em;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .first-job-service,
+    .second-job-service,
+    .thirty-job-service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-job-service img,
+    .second-job-service img,
+    .thirty-job-service img {
+        display: none;
+    }
+
+    .second-job-service ul {
+        margin-top: 2em;
+    }
+}

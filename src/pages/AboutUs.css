@@ -1,0 +1,59 @@
+.about-us-div-main {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.about-us-text {
+    width: 400px;
+}
+
+.about-us-text h1 {
+    color: var(--sixth);
+    font-weight: bolder;
+}
+
+.about-us-text p {
+    color: var(--quarter);
+    font-size: 15pt;
+    margin-bottom: 2em;
+    text-indent: 50px;
+    font-family: 'Montserrat'
+}
+
+.about-us-text span {
+    color: var(--quarter);
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+@media (max-width: 450px) {
+
+    .about-us-div-main {
+        flex-direction: column;
+    }
+
+    .about-us-text h1 {
+        font-size: 25pt;
+        margin-top: 1em;
+    }
+
+    .about-us-text p {
+        margin-top: -40px;
+        padding: 5px;
+    }
+
+    .about-us-text {
+        width: 375px;
+    }
+
+    .Img-background {
+        width: 350px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .about-us-div-main {
+        flex-direction: column;
+    }
+}
