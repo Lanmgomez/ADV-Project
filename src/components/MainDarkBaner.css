@@ -21,6 +21,15 @@
     background-color: var(--seventy);
 }
 
+.saiba-mais-button a {
+    color: var(--tertiary);
+}
+
+.saiba-mais-button a:hover {
+    background-color: #483D8B;
+    transition: 1s;
+}
+
 .contatos {
     margin-top: 7em;
 }
@@ -100,7 +109,7 @@
 
     .main-dark-baner {
         flex-direction: column;
-        height: 75vh;
+        height: 80vh;
     }
 
     .situacao-div h1 {
@@ -132,9 +141,21 @@
     .saiba-mais-button {
         margin-left: 60px;
         margin-top: 30px;
+        font-size: 12pt;
     }
 
     .email {
         font-size: 12pt;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .o-que-fazemos {
+        display: none;
+    }
+
+    .main-dark-baner {
+        height: 65vh;
     }
 }

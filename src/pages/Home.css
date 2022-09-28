@@ -94,6 +94,15 @@ button:hover {
     background-color: #483D8B;
 }
 
+#button-link {
+    color: var(--tertiary);
+}
+
+#button-link:hover {
+    background-color: #483D8B;
+    transition: 1s;
+}
+
 @media (max-width: 450px) {
 
     h1 {
@@ -123,10 +132,17 @@ button:hover {
         margin: 0 auto;
     }
 
-    button {
+    button, button a {
         width: 300px;
         margin: 0px 25px auto;
         margin-top: -70px;
+        margin-left: 15%;
+        color: #fff;
+        font-size: 10pt;
+    }
+
+    button a {
+        margin-left: 20%;
     }
 
     .h1-icon-1, .h1-icon-2, .nao-perca-tempo {
@@ -135,5 +151,30 @@ button:hover {
 
     .title-mv-consultoria {
         width: 300px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .h1-icon-1, .h1-icon-2 {
+        font-size: 12pt;
+    }
+
+    .main-home-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-left: 15% 1%;
+    }
+
+    button a {
+        margin-left: 0px;
+    }
+
+    .title-mv-consultoria {
+        font-size: 15pt;
+        width: 80%;
     }
 }

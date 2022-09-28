@@ -7,7 +7,11 @@ const MainDarkBaner = () => {
         <div className='situacao-div'>
             <h1>Nós entendemos a sua situação, por isso podemos ajudá-lo.</h1>
                 <p>Paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis provident necessitatibus aliquam, officia incidunt, laboriosam temporibus animi, maiores iste deserunt voluptatibus voluptates alias exercitationem totam minima. Repellat ipsa perferendis odio!</p>
-                <button className='saiba-mais-button'>Saiba Mais</button>
+                <button className='saiba-mais-button'>
+                    <a href="http://web.whatsapp.com/send?phone=5511947457110" target="_blank" rel='noreferrer'>
+                        Saiba Mais
+                     </a>
+                </button>
             <div className='contatos'>
                 <p>
                     <i className="bi bi-whatsapp"></i>

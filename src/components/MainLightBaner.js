@@ -1,9 +1,5 @@
 // css
 import './MainLightBaner.css'
-// images
-import Balanca from '../img/balanca.png'
-import Chave from '../img/chave.png'
-import Certificado from '../img/certificado.png'
 
 const MainLightBaner = () => {
   return (

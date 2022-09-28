@@ -14,3 +14,33 @@
     --sixth: #191970;
     --seventy: #800000;
 }
+
+.icon-whatsapp-screen-all i {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: green;
+    color: var(--tertiary);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 42px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.icon-whatsapp-screen-all a:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 450px) {
+
+    .icon-whatsapp-screen-all {
+        position: fixed;
+        margin-left: 100px;
+    }
+}

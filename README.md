@@ -1,3 +1,3 @@
 npm i:
 
--npm install react-slideshow-image -S
+-npm i react-router-dom;

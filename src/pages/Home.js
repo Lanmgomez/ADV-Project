@@ -35,7 +35,9 @@ const Home = () => {
             <h1><span className='span-regularize'>Regularize</span> seu imóvel</h1>
           </div>
         </div>
-        <button>Solicite um orçamento</button>
+        <button>
+          <a id='button-link' href="http://web.whatsapp.com/send?phone=5511947457110" target="_blank" rel='noreferrer'>Solicite um orçamento</a>
+        </button>
         <h1 className='title-mv-consultoria'>MV - Consultoria e Legalização Imobiliária</h1>
         <MainDarkBaner />
         <MainLightBaner />

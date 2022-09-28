@@ -1,12 +1,12 @@
 .MainLightBaner {
     width: 100%;
-    height: 65vh;
     border-bottom: 1px solid rgba(0, 0, 0, .4);
     box-shadow:  1px 3px 5px rgba(0, 0, 0, .4);
 }
 
 .Main-cars-baner {
     display: flex;
+    margin-bottom: 2em;
 }
 
 .title-service h1 {
@@ -76,6 +76,7 @@
 
     .MainLightBaner {
         flex-direction: column;
+        height: 73em;
     }
 
     .card-job-1 ul {
@@ -90,5 +91,20 @@
     .Main-cars-baner {
         flex-direction: column;
         margin-top: -20px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .card-job-1 h1,
+    .card-job-2 h1, 
+    .card-job-3 h1 {
+        font-size: 15pt;
+    }
+
+    .bi-newspaper, 
+    .bi-paperclip,
+    .bi-clipboard-data {
+        margin-left: 35%;
     }
 }
