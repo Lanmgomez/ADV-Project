@@ -12,7 +12,7 @@ const MainLightBaner = () => {
             <h1>Jurídicos</h1>
               <i className="bi bi-clipboard-data"></i>
                 <ul>
-                    <li>Contratos e certidões imobiliárias</li>
+                    <li>Contrato e certidão imobiliária</li>
                     <li>Assessoria jurídica imobiliária</li>
                     <li>Regularizações de imóveis</li>
                 </ul>
@@ -21,18 +21,18 @@ const MainLightBaner = () => {
             <h1>Regularizações</h1>
               <i className="bi bi-newspaper"></i>
                 <ul>
-                    <li>Aumento de áreas;</li>
-                    <li>Aumento de cômodos;</li>
-                    <li>Multas e infrações ambientais;</li>
+                    <li>Aumento de áreas</li>
+                    <li>Aumento de cômodos</li>
+                    <li>Multas e infrações ambientais</li>
                 </ul>
         </div>
         <div className='card-job-3'>
             <h1>Consultorias</h1>
               <i className="bi bi-paperclip"></i>
                 <ul>
-                    <li>Avaliação de demandas pontuais;</li>
-                    <li>Reuniões;</li>
-                    <li>Consultas;</li>
+                    <li>Avaliação de demandas pontuais</li>
+                    <li>Reuniões</li>
+                    <li>Consultas</li>
                 </ul>
         </div>
       </div>

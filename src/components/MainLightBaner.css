@@ -13,7 +13,6 @@
     display: block;
     color: var(--seventy);
     text-align: center;
-    width: 500px;
 }
 
 .card-job-1 {
@@ -80,11 +79,10 @@
     }
 
     .card-job-1 ul {
-        margin-top: -20px;
+        margin-top: -10px;
     }
 
     .title-service {
-        margin-left: -70px;
         font-size: 12pt;
     }
 
